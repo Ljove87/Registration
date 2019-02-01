@@ -3,12 +3,12 @@
         <div class="">
             <h1 class="naslov-blog">Velja BLOG</h1>
         </div>
-
         {% for post in posts %}
-            <div>
-                <p>published: {{ post.published_date }}</p>
+            <div class="col-12 posts">
+                <p>published: {{ post.published_date|date:"d F, Y" }}</p>
+                <hr>
                 <h2><a href="">{{ post.title }}</a></h2>
-                <p>{{ post.text|linebreaksbr }}</p>
+                <p>{{ post.text }}</p>
              </div>
 {% endfor %}
 {% endblock content %}

@@ -1,10 +1,15 @@
 body {
   color: rgb(27, 36, 37);
-  background: #f5f5f5;
+  background: #eee7e7;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #443838;
+  color: #123b3b;
+}
+
+h1 a, h2 a {
+  color: orange;
+  font-family: 'Lobster';
 }
 
 ul {
@@ -12,18 +17,20 @@ ul {
 }
 
 .inner {
-  margin-top: 60px;
+  margin-top: 160px;
 }
 
 .naslov-blog {
   text-align: center;
   padding-top: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .logo {
-  color: #444444;
+  color: #8d8c8c;
   padding-right: 50px;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .kolona {
@@ -31,11 +38,11 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #495f6e;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #e1e5e7;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -52,4 +59,18 @@ ul {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
+}
+
+.about-container, .container-logout, .contact-container, .reg-cont {
+  margin-top: 100px;
+}
+
+.posts {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 40px;
+}
+
+.footer h1 {
+  font-size: 12px;
 }
